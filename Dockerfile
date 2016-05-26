@@ -16,7 +16,7 @@ MAINTAINER Geir Gåsodden
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y git unoconv && apt-get clean
 
 # Clone the repo
-RUN git clone https://github.com/zrrrzzt/tfk-api-unoconv.git unoconvservice
+RUN git clone https://github.com/Didstopia/tfk-api-unoconv.git unoconvservice
 
 # Change working directory
 WORKDIR "/unoconvservice"
